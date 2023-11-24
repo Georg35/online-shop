@@ -1,11 +1,13 @@
 package pro.sky.homework210;
 
 import org.springframework.context.annotation.Scope;
+import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Scope
+
+@SessionScope
 public class Basket {
 
     private ArrayList<Integer> basket;

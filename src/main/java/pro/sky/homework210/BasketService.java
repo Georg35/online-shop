@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Scope
 public class BasketService {
 
     Basket basket;
